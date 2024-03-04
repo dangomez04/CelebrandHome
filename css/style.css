@@ -11,7 +11,6 @@ div#header{
 
 div#mainContent{
     min-height: 50vh;
-    border: 1px solid red;
 }
 
 div#footer{
@@ -20,6 +19,8 @@ div#footer{
     align-items: center;
 }
 
+
+/* banner  */
 
 div.banner{
     position: relative;
@@ -45,10 +46,13 @@ span.tc{
     color: #58e5ed;
 }
 
+/* ecommerce */
+
 div.containerEcommerce{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     font-family: "Hind", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -60,17 +64,24 @@ div.containerEcommerce{
 div.containerContentEcommerce{
     display: flex;
     flex-direction: row;
-   
+   margin-top: -120px;
 }
 
 div.title h1{
     font-size: 39px;
 }
 
+div.infoEcommerce{
+    position: relative;
+    top: 73px;
+    left: 25px;
+}
+
 div.infoEcommerce h2{
     font-size: 60px;
     width: 16vw;
     margin: 0;
+    line-height: 8vh;
 }
 
 div.infoEcommerce p{
@@ -84,6 +95,61 @@ div.infoEcommerce p#fstSubtitle{
 div.infoEcommerce p#scSubtitle{
     width: 33vw;
 }
+
+
+/* branding y publicidad */
+
+div.byp{
+    min-height: 60vh;
+    background-color: #f7f7f7;
+    display: flex;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+}
+
+div#infoByp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+
+
+div#infoByp div.titleByp h2{
+    font-size: 60px;
+    margin: 0;
+}
+
+div.subtitleByp p{
+    font-size: 20px;
+    width: 33vw;
+}
+
+div.showMore a{
+text-decoration: none;
+color: #0d0e1d;
+font-weight: bold;
+font-size: 16px;
+}
+
+
+div.showMore a:hover{
+     color: #fbb559;
+    }
+
+
+ /* marketing */
+
+div.marketing{
+    min-height: 60vh;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+}
+    
 
 
 

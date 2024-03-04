@@ -43,13 +43,27 @@ ul#contentMenu li a{
 
 ul#contentMenu li.contact{
     background-color: black;
-
+    border: 1px solid black;
     margin-top: 8px;
    
 }
+
+ul#contentMenu li.contact:hover{
+    background-color: white;
+
+   
+}
+
 ul#contentMenu li.contact a{
     color: white;
 }
+
+ul#contentMenu li.contact:hover a{
+    color: black;
+
+   
+}
+
 
 ul#contentMenu li.logoKit{
     margin-right: 15px;
