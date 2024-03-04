@@ -1,0 +1,57 @@
+div#header{
+    display: flex;
+}
+
+div.logoHeader{
+    width: 41vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul#contentMenu{
+    margin-left: -240px;
+}
+
+ul#contentMenu li{
+    float: left;
+    margin-left: -15px;
+    list-style: none;
+    padding: 15px;
+    margin-top: 5px;
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+ul#contentMenu li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul#contentMenu li.contact{
+    background-color: black;
+
+    margin-top: 8px;
+   
+}
+ul#contentMenu li.contact a{
+    color: white;
+}
+
+ul#contentMenu li.logoKit{
+    margin-right: 15px;
+}
+
