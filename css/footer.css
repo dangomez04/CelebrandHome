@@ -1,0 +1,79 @@
+div#contentFooter{
+    height: auto;
+    width: 55vw;
+}
+
+div.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.info{
+display: flex;
+flex-direction: column;
+
+}
+
+div.info h1{
+    font-size: 50px;
+    color: #ef5453 ;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+div.info a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+
+}
+
+
+
+div.location h1{
+    font-size: 50px;
+    color: #47c1c8 ;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.location p {
+    color: black;
+    font-size: 20px;
+}
+
+
+
+div.social-media h1{
+    font-size: 50px;
+    color: #fbb559;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+div.containerLogo{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fs{
+    font-size: 30px;
+    color: black;
+}
+
+div.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
