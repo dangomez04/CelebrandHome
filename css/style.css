@@ -284,11 +284,137 @@ div.allServices a:hover{
     color: #fbb559;
 }
 
+/* como trabajamos */
+
+div.aboutCelebrand{
+    min-height: 50vh;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    
+}
+
+div.aboutCelebrand div.examplesAbout{
+    margin-left: 132px;
+    margin-top: 10px;
+
+}
 
 
 
+div.aboutCelebrand div.infoAbout div.titleAbout h2{
+
+    font-size: 50px;
+    margin: 0;
+    line-height: 7vh;
+    color: #ef5453;
+
+}
+
+div.aboutCelebrand div.infoAbout div.titleAbout span{
+
+  background-color: #7C43A8;
+    color: white;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+div.aboutCelebrand div.infoAbout div.titleAbout {
+width: 19vw;
+
+}
+
+div.aboutCelebrand div.subtitles p{
+    font-size: 16px;
+}
+
+div.aboutCelebrand div.subtitles p.fsSubtitleAbout{
+width: 26vw;
+}
+div.aboutCelebrand div.subtitles p.scSubtitleAbout{
+    width: 26vw;
+
+}
 
 
+div.redirect a{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+div.redirect a:hover{ 
+    color: #fbb559;
+  
+}
 
 
+div.examplesAbout div h4{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+div.examplesAbout div p {
+    width: 19vw;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* quienes confian */
+
+div.collabs{
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+div.titleCollabs h3{
+    font-size: 60px;
+    margin: 0;
+}
+
+div.titleCollabs span{
+    color: #47c1c8;
+}
+
+div.subtitlesCollabs{
+    text-align: center;
+}
+
+div.examplesCollabs {
+    width: 60vw;
+    margin-top: 90px;
+}
+
+div.subtitlesCollabs p{
+    font-size: 16px;
+    
+}
+
+
+div.examplesCollabs img{
+    float: left;
+}
+
+div.showAll{
+    margin-top: 100px;
+}
+
+div.showAll a{
+    color: black;
+    font-size: 30px;
+}
+
+div.showAll a:hover{
+    color: #fbb559;
+}
 
