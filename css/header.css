@@ -17,6 +17,7 @@ div.menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 
@@ -24,7 +25,7 @@ ul#contentMenu{
     margin-left: -240px;
 }
 
-ul#contentMenu li{
+ul#contentMenu li.mainMenu{
     float: left;
     margin-left: -15px;
     list-style: none;
@@ -36,7 +37,7 @@ ul#contentMenu li{
 
 }
 
-ul#contentMenu li a{
+ul#contentMenu li.mainMenu a{
     text-decoration: none;
     color: black;
 }
@@ -68,4 +69,104 @@ ul#contentMenu li.contact:hover a{
 ul#contentMenu li.logoKit{
     margin-right: 15px;
 }
+
+/* submenu desarrollo */
+
+ul.submenuDev{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 61px;
+    border: 1px solid black;
+    width: 12.5vw;
+    padding: 0;
+    background-color: white;
+}
+
+ul.submenuDev li{
+    width: 12vw;
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+ul.submenuDev li a{
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+li.development:hover ul.submenuDev{
+display: block;
+}
+
+/* submenu marketing */
+
+ul.submenuMark{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 61px;
+    left: 341px;
+    border: 1px solid black;
+    width: 12.5vw;
+    padding: 0;
+    background-color: white;
+}
+
+ul.submenuMark li{
+    width: 12vw;
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+ul.submenuMark li a{
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+li.marketing:hover ul.submenuMark{
+    display: block;
+    }
+
+
+/* submenu Diseño */
+
+ul.submenuDesign{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 61px;
+    left: 457px;
+    border: 1px solid black;
+    width: 12.5vw;
+    padding: 0;
+    background-color: white;
+}
+
+ul.submenuDesign li{
+    width: 12vw;
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+
+ul.submenuDesign li a{
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+li.diseño:hover ul.submenuDesign{
+    display: block;
+    }
+
 

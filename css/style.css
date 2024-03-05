@@ -144,12 +144,146 @@ div.showMore a:hover{
  /* marketing */
 
 div.marketing{
-    min-height: 60vh;
+    min-height: 85vh;
     background-color: #f7f7f7;
     display: flex;
     flex-direction: row;
-}
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
     
+}
+
+div.exampleMarketing{
+    margin-top: 6.3%;
+    margin-right: 2%;
+}
+
+div.infoMarketing{
+    margin-right: 13.5%;
+    margin-top: 6.5%;
+}
+
+
+div.infoMarketing div.title{
+    width: 41vh;
+}
+
+div.infoMarketing div.title h2{
+    font-size: 60px;
+    line-height: 8vh;
+    margin: 0;
+    
+}
+
+div.infoMarketing div.subtitles p{
+    font-size: 20px;
+
+}
+
+div.infoMarketing div.subtitles p.fstSubtitle{
+    width: 32vw;
+}
+
+div.infoMarketing div.subtitles p.scSubtitle{
+    width: 33vw;
+
+}
+
+div.infoMarketing div.showMoreBtn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+div.infoMarketing div.showMoreBtn a:hover{
+    color: #fbb559;
+}
+
+/* Desarrollo web */
+
+div.web-development{
+    min-height: 75vh;
+    background-color: #f7f7f7;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}    
+
+div.infoWd{
+    text-align: right;
+    margin-top: 9%;
+
+}
+
+div.infoWd div.titleWd h2{
+    font-size: 60px;
+    margin: 0;
+    line-height: 8vh;
+
+}
+
+
+
+
+div.infoWd div.subtitlesWd p{
+    font-size: 20px;
+}
+
+div.infoWd div.subtitlesWd p.fsSubtitleWd{
+    width: 33vw;
+
+}
+
+
+div.infoWd div.subtitlesWd p.scSubtitleWd{
+    width: 32vw;
+
+
+}
+
+
+div.infoWd div.showMoreWd a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+div.infoWd div.showMoreWd a:hover{
+    color: #fbb559;
+}
+
+
+div.exampleWd{
+    margin-top: 7%;
+    padding-left: 15px;
+}
+
+/* All services */
+
+div.allServices{
+background-color: #f7f7f7;
+display: flex;
+justify-content: center;
+font-family: "Hind", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+div.allServices a{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+div.allServices a:hover{
+    color: #fbb559;
+}
+
 
 
 
