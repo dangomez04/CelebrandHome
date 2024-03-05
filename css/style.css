@@ -1,10 +1,13 @@
-/* fuente Granary Regular */
+/* fuente Granary Semi-bold */
+@font-face {
+    font-family: 'Granary Semi-Bold'; /* Cambia 'NombreDeTuFuente' por el nombre que quieras darle a tu fuente */
+    src: url('../fonts/Granary-Semi-Bold.otf') format('opentype'); /* Cambia 'fonts/tufuente.otf' por la ruta relativa al archivo .otf */
+}
+
 @font-face {
     font-family: 'Granary Regular'; /* Cambia 'NombreDeTuFuente' por el nombre que quieras darle a tu fuente */
     src: url('../fonts/Granary-Regular.otf') format('opentype'); /* Cambia 'fonts/tufuente.otf' por la ruta relativa al archivo .otf */
 }
-
-
 
 
 body{
@@ -15,7 +18,7 @@ body{
 div#header{
     width: 100%;
     height: 8vh;
-
+    font-family: 'Granary Regular', sans-serifs;
 }
 
 
@@ -49,7 +52,7 @@ div.banner h1{
     font-size: 80px;
 color: white;
 width: 35vw;
-font-family: 'Granary Regular', sans-serif ;
+font-family: 'Granary Semi-Bold', sans-serif ;
 
 }
 
@@ -64,9 +67,6 @@ div.containerEcommerce{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     background-color: #f7f7f7;
     min-height: 90vh;
     position: relative;
@@ -80,6 +80,7 @@ div.containerContentEcommerce{
 
 div.title h1{
     font-size: 39px;
+    font-family: 'Granary Semi-Bold',sans-serif;
 }
 
 div.infoEcommerce{
@@ -89,15 +90,18 @@ div.infoEcommerce{
 }
 
 div.infoEcommerce h2{
+    font-family: 'Granary Semi-Bold',sans-serif;
     font-size: 60px;
-    width: 16vw;
+    width: 17vw;
     margin: 0;
     line-height: 8vh;
 }
 
 div.infoEcommerce p{
     font-size: 20px;
-}
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
 
 div.infoEcommerce p#fstSubtitle{
     width: 33vw;
@@ -114,9 +118,6 @@ div.byp{
     min-height: 60vh;
     background-color: #f7f7f7;
     display: flex;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     justify-content: center;
 }
 
@@ -132,18 +133,23 @@ div#infoByp{
 div#infoByp div.titleByp h2{
     font-size: 60px;
     margin: 0;
+    font-family: 'Granary Semi-Bold',sans-serif;
+
 }
 
 div.subtitleByp p{
     font-size: 20px;
     width: 33vw;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.showMore a{
 text-decoration: none;
 color: #0d0e1d;
-font-weight: bold;
 font-size: 16px;
+font-family: 'Granary Regular', sans-serif;
 }
 
 
@@ -159,9 +165,7 @@ div.marketing{
     background-color: #f7f7f7;
     display: flex;
     flex-direction: row;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    
     justify-content: center;
     
 }
@@ -185,11 +189,16 @@ div.infoMarketing div.title h2{
     font-size: 60px;
     line-height: 8vh;
     margin: 0;
+    font-family: 'Granary Semi-Bold',sans-serif;
+    width: 31vw;
     
 }
 
 div.infoMarketing div.subtitles p{
     font-size: 20px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -205,7 +214,8 @@ div.infoMarketing div.subtitles p.scSubtitle{
 div.infoMarketing div.showMoreBtn a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-family: 'Granary Regular', sans-serif;
+
 }
 
 div.infoMarketing div.showMoreBtn a:hover{
@@ -217,9 +227,6 @@ div.infoMarketing div.showMoreBtn a:hover{
 div.web-development{
     min-height: 75vh;
     background-color: #f7f7f7;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     display: flex;
     justify-content: center;
 }    
@@ -234,6 +241,7 @@ div.infoWd div.titleWd h2{
     font-size: 60px;
     margin: 0;
     line-height: 8vh;
+    font-family: 'Granary Semi-Bold',sans-serif;
 
 }
 
@@ -242,6 +250,10 @@ div.infoWd div.titleWd h2{
 
 div.infoWd div.subtitlesWd p{
     font-size: 20px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 div.infoWd div.subtitlesWd p.fsSubtitleWd{
@@ -260,7 +272,7 @@ div.infoWd div.subtitlesWd p.scSubtitleWd{
 div.infoWd div.showMoreWd a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-family: 'Granary Regular', sans-serif;
 
 }
 
@@ -289,6 +301,7 @@ div.allServices a{
     color: black;
     font-size: 30px;
     padding-bottom: 40px;
+    font-family: 'Granary Regular', sans-serif;
 }
 
 div.allServices a:hover{
@@ -299,9 +312,6 @@ div.allServices a:hover{
 
 div.aboutCelebrand{
     min-height: 50vh;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -317,6 +327,7 @@ div.aboutCelebrand div.examplesAbout{
 
 
 div.aboutCelebrand div.infoAbout div.titleAbout h2{
+    font-family: 'Granary Semi-Bold',sans-serif;
 
     font-size: 50px;
     margin: 0;
@@ -340,6 +351,9 @@ width: 19vw;
 
 div.aboutCelebrand div.subtitles p{
     font-size: 16px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.aboutCelebrand div.subtitles p.fsSubtitleAbout{
@@ -355,10 +369,18 @@ div.redirect a{
     color: black;
     font-size: 26px;
     font-weight: bold;
+    font-family: 'Granary Regular', sans-serif;
+
 }
 div.redirect a:hover{ 
     color: #fbb559;
   
+}
+
+div.examplesAbout{
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -380,9 +402,7 @@ div.fsExample2{
 /* quienes confian */
 
 div.collabs{
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -394,6 +414,7 @@ div.collabs{
 div.titleCollabs h3{
     font-size: 60px;
     margin: 0;
+    font-family: 'Granary Semi-Bold',sans-serif;
 }
 
 div.titleCollabs span{
@@ -402,6 +423,9 @@ div.titleCollabs span{
 
 div.subtitlesCollabs{
     text-align: center;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.examplesCollabs {
@@ -426,6 +450,8 @@ div.showAll{
 div.showAll a{
     color: black;
     font-size: 30px;
+    font-family: 'Granary Regular', sans-serif;
+
 }
 
 div.showAll a:hover{
@@ -440,16 +466,15 @@ div.we-offer{
     align-items: center;
     padding-top: 100px;
     padding-bottom: 50px;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  
 }
 
 div.titleOffer h3{
     font-size: 60px;
-    
+    font-family: 'Granary Semi-Bold',sans-serif;
+
     text-align: center;
-    width: 47vw;
+    width: 50vw;
     margin: 0;
     font-weight: bold;
     padding-bottom: 100px;
@@ -475,44 +500,58 @@ div.contentWeOffer{
 
 
 
-
-
-
 div.weSay h3{
     font-size: 45px;
     width: 12vw;
     font-weight: bold;
     margin: 0;
     line-height: 3vw;
+    font-family: 'Granary Semi-Bold',sans-serif;
+
 }
 div.weSay span#q{
     color: #EF5453;
 }
 
-div.weSay p.fsParagraph{
+div.weSay p.fsParagraphh{
+    font-family: 20px;
+
 width: 15vw;
 margin-bottom: 40px;
+  font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.infoSuggestions h3{
     font-size: 26px;
     width: 17vw;
     margin: 0;
+    font-family: 'Granary Regular', sans-serif;
+
 
 }
 
 div.infoSuggestions p#paragraphSuggest{
     width: 18vw;
     font-size: 16px;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.scExample h3{
     font-size: 26px;
     width: 19vw;
+    font-family: 'Granary Regular', sans-serif;
+
 }
 
 div.scExample p.parExample{
     width: 19vw;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.weSay{
@@ -527,6 +566,8 @@ font-weight: bold;
 border: 1px solid black;
 background-color: white;
 padding: 11px;
+font-family: 'Granary Regular', sans-serif;
+
 
 }
 div.weSay a:hover{
@@ -617,6 +658,8 @@ div.imgChat a.contactar{
     background-color: white;
     font-weight: bold;
     font-size: 20px;
+    font-family: 'Granary Regular', sans-serif;
+
 
 }
 
@@ -653,6 +696,9 @@ div.contactForm input[name=meApunto]{
     right: 424px;
     top: 52px;
     cursor: pointer;
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+
 
 }
 
@@ -688,3 +734,14 @@ div.contactForm a{
 }
 
 
+/* donut */
+
+div.donut{
+    border: 40px solid #47c1c8;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: -291px;
+    top: 0px;
+}

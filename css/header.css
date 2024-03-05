@@ -1,3 +1,7 @@
+
+
+
+
 div#header{
     display: flex;
 }
@@ -31,9 +35,7 @@ ul#contentMenu li.mainMenu{
     list-style: none;
     padding: 15px;
     margin-top: 5px;
-    font-family: "Hind", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+    
 
 }
 
@@ -91,9 +93,7 @@ ul.submenuDev li{
 }
 
 ul.submenuDev li a{
-    font-family: "Hind", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+   
     text-decoration: none;
     color: black;
 }
@@ -124,9 +124,7 @@ ul.submenuMark li{
 }
 
 ul.submenuMark li a{
-    font-family: "Hind", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+    
     text-decoration: none;
     color: black;
 }
@@ -158,9 +156,7 @@ ul.submenuDesign li{
 }
 
 ul.submenuDesign li a{
-    font-family: "Hind", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+   
     text-decoration: none;
     color: black;
 }
