@@ -44,6 +44,12 @@ div#mainContent div.banner img{
     width: 100%;
     height: 100%;
 }
+@keyframes changeTitle {
+    0% { content: "happiness"; color: #58e5ed; }
+    50% { content: "experiences"; color: #FF5F5E }
+    100% { content: "things"; color: #FABC6B;}
+   
+}
 
 div.banner h1{
     position: absolute;
@@ -54,6 +60,11 @@ color: white;
 width: 35vw;
 font-family: 'Granary Semi-Bold', sans-serif ;
 
+}
+
+div.banner span.tc::after{
+    content: "Título 1";
+    animation: changeTitle 5s infinite linear; 
 }
 
 span.tc{
@@ -336,13 +347,27 @@ div.aboutCelebrand div.infoAbout div.titleAbout h2{
 
 }
 
+@keyframes changeSpan {
+    0% { content: "trabajamos"; background-color: #7C43A8; }
+    100% { content: "nos divertimos"; background-color: #47c1c8; }
+    
+   
+}
+
+
+div.aboutCelebrand div.infoAbout div.titleAbout span::after{
+    content: "trabajamos";
+    animation: changeSpan 3s infinite linear; 
+}
+
 div.aboutCelebrand div.infoAbout div.titleAbout span{
 
-  background-color: #7C43A8;
     color: white;
     padding-left: 8px;
     padding-right: 5px;
 }
+
+
 
 div.aboutCelebrand div.infoAbout div.titleAbout {
 width: 19vw;
@@ -744,4 +769,7 @@ div.donut{
     position: absolute;
     right: -291px;
     top: 0px;
+     transition: right 0.5s ease; /*transición para suavizar el movimiento */
+
+
 }
