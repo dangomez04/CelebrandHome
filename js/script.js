@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
+
 window.addEventListener('scroll', function() {
     var donut = document.querySelector('.donut');
     
@@ -10,12 +14,24 @@ window.addEventListener('scroll', function() {
 
    
     //si el scroll vuelve a su posición inicial, que el donut vuelva a su pos inicial también
-
     if (scrollPosition==0) {
         donut.style.top = '0px';
         donut.style.right = '-291px';
 
     }
+
+       
+
+   
+
+   
+    
+
+
     
     
+    
+    
+});
+
 });

@@ -326,6 +326,7 @@ div.aboutCelebrand{
     display: flex;
     justify-content: center;
     padding-top: 90px;
+    position: relative;
     
 }
 
@@ -769,7 +770,118 @@ div.donut{
     position: absolute;
     right: -291px;
     top: 0px;
-     transition: right 0.5s ease; /*transición para suavizar el movimiento */
+     transition: right 1s ease;
 
 
 }
+
+@media(max-width: 768px){
+
+    body {
+        overflow-x: hidden; /* Esto evita el desplazamiento horizontal */
+        width: 100%; /* Asegúrate de que el cuerpo ocupe todo el ancho disponible */
+    }
+
+     ul#contentMenu{
+        display: none;
+    }
+
+    div.about{
+        flex-direction: column;
+        
+    }
+
+
+    div.rp{
+        margin-top: 20%;
+    }
+  
+    div.info a{
+        margin-top: 20%;
+    }
+    
+
+
+    div.containerLogo{
+        margin-top: 20%;
+    }
+
+    
+div.contentWeOffer{
+    flex-direction: column;
+    align-items: center;
+}
+
+div.weSay{
+    width: 70vw;
+    margin-top: -5%;
+}
+
+div.weSay h3{
+    line-height: 12vw;
+    font-size: 50px;
+}
+
+div.weSay p.fsParagraphh{
+    width: 52vw;
+}
+
+div.titleOffer h3{
+    font-size: 32px;
+}
+
+div.fsExample2{
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+div.infoSuggestions{
+    margin-top: 5%;
+}
+
+div.infoSuggestions h3{
+    width: 75vw;
+    font-size: 20px;
+}
+
+div.infoSuggestions p#paragraphSuggest{
+    width: 64vw;
+}
+
+
+div.scExample{
+    padding: 30px;
+}
+
+div.scExample h3{ 
+    font-size: 20px;
+    width: 75vw;
+
+}
+
+
+div.scExample p.parExample{
+width: 60vw;
+}
+
+div.titleCollabs h3{
+   text-align: center;
+}
+
+div.examplesCollabs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+}
+
+
+
+
+
+
